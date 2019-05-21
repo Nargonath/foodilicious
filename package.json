@@ -29,6 +29,8 @@
     ]
   },
   "devDependencies": {
+    "ngt-scripts": "^1.0.0",
+    "prettier": "^1.17.1",
     "typescript": "^3.4.5"
   }
 }
