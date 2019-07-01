@@ -15,7 +15,7 @@
   "devDependencies": {
     "cz-lerna-changelog": "^2.0.2",
     "lerna": "^3.15.0",
-    "ngt-scripts": "^1.4.0",
+    "ngt-scripts": "^2.0.0",
     "semantic-release": "^15.13.18",
     "semantic-release-monorepo": "^6.1.1"
   }
