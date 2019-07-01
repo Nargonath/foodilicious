@@ -1,10 +1,21 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "cm": "npx git-cz"
+  },
   "workspaces": [
     "packages/*"
   ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "devDependencies": {
-    "lerna": "^3.15.0"
+    "cz-lerna-changelog": "^2.0.2",
+    "lerna": "^3.15.0",
+    "semantic-release": "^15.13.18",
+    "semantic-release-monorepo": "^6.1.1"
   }
 }
