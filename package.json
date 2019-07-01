@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "cm": "npx git-cz"
+    "cm": "npx git-cz",
+    "start:web": "npx lerna exec --scope web -- yarn start"
   },
   "workspaces": [
     "packages/*"
