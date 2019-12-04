@@ -2066,6 +2066,25 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
+"@react-google-maps/api@^1.7.14":
+  version "1.7.14"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/api/-/api-1.7.14.tgz#1b558118cac422c45ec9732d2e06d9f370ba3db2"
+  integrity sha512-YYYM1FDqOKZY8PpjbFsNU3XWUfvmBVPS688PYonpJJ4ujZv258VvcSxGpZfaU8MxA9bs/9DpNhgItNe4jo+aEQ==
+  dependencies:
+    "@react-google-maps/infobox" "1.7.11"
+    "@react-google-maps/marker-clusterer" "1.7.8"
+    invariant "2.2.4"
+
+"@react-google-maps/infobox@1.7.11":
+  version "1.7.11"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/infobox/-/infobox-1.7.11.tgz#127e51a2bc0ead742f3443c22f6458fb43fd734a"
+  integrity sha512-o7PET703DIprxeS0fWy69RUuCfu6YFze6D9plIIhumE8T4SukYAv3UVZbxHUgmXRqz6I5CtXCW0zl5fGgYhVwA==
+
+"@react-google-maps/marker-clusterer@1.7.8":
+  version "1.7.8"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/marker-clusterer/-/marker-clusterer-1.7.8.tgz#e09a28824d3c7c32bb86e45dd30f5fd7238e63df"
+  integrity sha512-i3GVDMusP/BErRP9WuEka1mYEWQdBcpPNo9LyAaP0GGOmKxPczJrdzMFBqSSGJk+lefywZXGoTi52D2O7KWeyw==
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -7038,7 +7057,7 @@ into-stream@^5.0.0:
     from2 "^2.3.0"
     p-is-promise "^2.0.0"
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -13429,6 +13448,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@^3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.2.tgz#27e489b95fa5909445e9fef5ee48d81697ad18fb"
+  integrity sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
 
 uglify-js@3.4.x:
   version "3.4.10"

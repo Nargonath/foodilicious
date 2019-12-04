@@ -18,6 +18,7 @@
     "lerna": "^3.15.0",
     "ngt-scripts": "^2.0.0",
     "semantic-release": "^15.13.18",
-    "semantic-release-monorepo": "^6.1.1"
+    "semantic-release-monorepo": "^6.1.1",
+    "typescript": "^3.7.2"
   }
 }
