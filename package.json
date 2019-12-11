@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "cm": "npx git-cz",
-    "start:web": "npx lerna run --scope=web start"
+    "start:web": "npx lerna exec --scope=web yarn start"
   },
   "workspaces": [
     "packages/*"
