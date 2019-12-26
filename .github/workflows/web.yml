@@ -1,8 +1,12 @@
 name: Web
 
-on: push
-    # paths:
-    #   - 'packages/web/*'
+env:
+  CI: true
+
+on:
+  push
+  # paths:
+  #   - 'packages/web/*'
 
 jobs:
   test:
@@ -18,30 +22,26 @@ jobs:
           node-version: '12.x'
       - name: yarn install
         run: yarn
-        env:
-          CI: true
       - name: yarn test:web
         run: yarn test:web
-
-  e2e:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - name: Setup Node 12.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-      - name: Install
-        run: yarn
-        env:
-          CI: true
-      - name: Cypress run
-        uses: cypress-io/github-action@v1
-        with:
-          start: yarn start
-          wait-on: 'http://localhost:3000'
-          working-directory: 'packages/web'
+  # e2e:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v1
+  #       with:
+  #         fetch-depth: 1
+  #     - name: Setup Node 12.x
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '12.x'
+  #     - name: Install
+  #       run: yarn
+  #       env:
+  #         CI: true
+  #     - name: Cypress run
+  #       uses: cypress-io/github-action@v1
+  #       with:
+  #         start: yarn start
+  #         wait-on: 'http://localhost:3000'
+  #         working-directory: 'packages/web'
