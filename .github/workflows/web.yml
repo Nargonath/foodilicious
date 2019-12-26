@@ -1,9 +1,8 @@
 name: Web
 
-on:
-  push:
-    paths:
-      - 'packages/web/*'
+on: push
+    # paths:
+    #   - 'packages/web/*'
 
 jobs:
   test:
