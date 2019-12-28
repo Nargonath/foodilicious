@@ -6,4 +6,4 @@
 <hr>
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-![Web workflow status](https://github.com/Nargonath/foodilicious/workflows/Web/badge.svg)
+[![Web workflow status](https://github.com/Nargonath/foodilicious/workflows/Web/badge.svg)](https://github.com/Nargonath/foodilicious/actions?query=workflow%3AWeb)
