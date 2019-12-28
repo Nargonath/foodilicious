@@ -1,6 +1,9 @@
 import React from 'react';
 import { useLoadScript, GoogleMap } from '@react-google-maps/api';
+
 import './App.css';
+import { MarkerList } from 'components/MarkerList';
+import { places } from 'data';
 
 function App() {
   const { isLoaded, loadError } = useLoadScript({
@@ -14,7 +17,9 @@ function App() {
         mapContainerStyle={{ height: '100%', width: '100%' }}
         center={{ lat: 45.74507, lng: 4.825822 }}
         zoom={8}
-      ></GoogleMap>
+      >
+        <MarkerList places={places}></MarkerList>
+      </GoogleMap>
     );
   };
 
