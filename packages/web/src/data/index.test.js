@@ -48,5 +48,10 @@ describe('data module', () => {
     expect(Object.keys(all)).toHaveLength(length);
   });
 
-  it.todo('has "all" object with key as entity@id format');
+  it('has "all" object with key as entity@id format', () => {
+    const keys = Object.keys(all);
+    expect(keys).toEqual(
+      expect.arrayContaining([expect.stringMatching(/[a-zA-Z]@\d{1,2}/)]),
+    );
+  });
 });
